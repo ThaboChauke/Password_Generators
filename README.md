@@ -37,7 +37,7 @@ This Python script generates passwords based on user-defined length and complexi
 
     You can install the required dependencies using pip:
 
-    ***pip install pandas tkinter questionary***
+    ***pip3 install -r requirements.txt***
 
 
 ## Credits
