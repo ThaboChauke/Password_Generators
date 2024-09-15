@@ -26,7 +26,9 @@ This Python script generates passwords based on user-defined length and complexi
 4. Navigate to the directory where the script is saved.
 5. Run the script using the command
 
-    ***python3 password_generator.py***
+    ```bash
+    python3 password_generator.py
+    ```
 
 6. Follow the on-screen prompts to generate a password.
 
@@ -36,10 +38,6 @@ This Python script generates passwords based on user-defined length and complexi
 - Colorama
 
     You can install the required dependencies using pip:
-
-    ***pip3 install -r requirements.txt***
-
-
-## Credits
-
-This application was created by [***Thabo Chauke***].
+    ```bash
+    pip3 install -r requirements.txt
+    ```
