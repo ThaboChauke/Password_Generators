@@ -44,3 +44,17 @@ function generatePassword() {
 function updateSliderInput(val) {
     document.getElementById("textInput").value = val
 }
+
+function copyPassword() {
+    let password = document.getElementById("passBox").value;
+    
+    if (password !== "") {
+        navigator.clipboard.writeText(password).then(function() {
+            alert("Password copied to clipboard!");
+        }).catch(function(error) {
+            alert("Failed to copy password: " + error);
+        });
+    } else {
+        alert("Generate a password first!");
+    }
+}
