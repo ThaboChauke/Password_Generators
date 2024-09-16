@@ -17,9 +17,12 @@
         <div class="row">
             <p>Password Length:</p>
         </div>
-        <div class="pass-Indicator" class="passIndicator">
-            <input type="range" min="4" max="30" value="6" step="1" id="inputSlider" onchange="updateSliderInput(this.value)">
-            <input type="text" id="textInput" value="" disabled>
+        <div class="pass-Indicator">
+            <!-- Wrap the slider and textbox in a new div -->
+            <div class="slider-container">
+                <input type="range" min="4" max="30" value="6" step="1" id="inputSlider" onchange="updateSliderInput(this.value)">
+                <input type="text" id="textInput" value="6" disabled>
+            </div>
             <div class="row">
                 <p>Password Complexity: </p>
             </div>
