@@ -1,6 +1,3 @@
-Here’s a README file for your combined repository that contains both the JavaScript and Python password generators:
-
----
 
 # Password Generators
 
